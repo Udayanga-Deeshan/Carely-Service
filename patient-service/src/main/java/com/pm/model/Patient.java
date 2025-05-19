@@ -23,6 +23,9 @@ public class Patient {
     private String name;
 
     @NotNull
+    private String address;
+
+    @NotNull
     @Email
     @Column(unique = true)
     private String email;
