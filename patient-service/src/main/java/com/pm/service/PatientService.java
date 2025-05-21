@@ -20,4 +20,12 @@ public class PatientService {
         return patientEntityList.stream().map(PatientMapper::toDto).toList();
 
     }
+
+    
+
+
+
+
+
+
 }
