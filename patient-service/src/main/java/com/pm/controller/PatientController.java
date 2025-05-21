@@ -21,4 +21,6 @@ public class PatientController {
         List<PatientResponseDTO> patients = patientService.getPatients();
         return ResponseEntity.ok().body(patients);
     }
+
+
 }
